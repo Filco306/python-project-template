@@ -10,12 +10,3 @@ repos:
     rev: 19.3b0
     hooks:
     -   id: black
--   repo: local
-    hooks:
-    -   id: pytest
-        name: pytest
-        language: system
-        entry: pytest
-        pass_filenames: false
-        always_run: true
-        stages: [push]
