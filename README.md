@@ -12,6 +12,15 @@ Tools used:
     - `flake8`
 - `pre-push` hook: Simply a `pytest` used
 
+## Resources important to understand
+
+Package/tool | Description | Resources
+-------------|-------------|----------
+ `virtualenv`  | Create a virtual environment for package management. Activate using `source venv/bin/activate`, deactivate using `deactivate` in your terminal | [Documentation](https://docs.python.org/3/library/venv.html)
+`pre-commit` | Tool used for creating pre-commit hooks. Before anything is committed, it needs to pass rules declared by you. | [Documentation](http://pre-commit.com/)
+ `pytest` | Tool used to create tests. Run tests by simply typing `pytest` in the command line. | [Documentation](https://docs.pytest.org/en/stable/)
+Docker | Docker is a tool to isolate an app and its applications into a state-less environment. Pretty nice. | [More info here](https://www.docker.com/)
+
 ## Configuration instructions
 
 This was made on `python 3.7.7` and `pip3 20.0.2`.
