@@ -16,7 +16,7 @@ If you decided to use this as a template for your own project, do the following:
 ### UNIX (MacOS or Linux)
 
 1. Choose `Use this as template` on [the repo website](https://github.com/Filco306/python-project-template).
-2. Run `source `
+2. Run `source setup.sh` to set the repo up to be done.
 
 ### Windows
 
@@ -25,6 +25,12 @@ Honestly, I don't know. Currently, I believe this is pretty much only UNIX-compa
 ## Operating instructions
 
 See installation instructions.
+
+Generally, in the different folders, you put the following.
+
+- `res`: Put resources such as images, data files etc.
+- `src`: Put the source code here, with the entrypoint `index.py` being the exception.
+- `test`: Put the tests here. These are run before push.
 
 ## A file manifest (list of files included)
 
@@ -91,3 +97,8 @@ SOFTWARE.
 ## A changelog (usually for programmers)
 
 ## A news section (usually for users)
+
+### Coming soon
+
+A few ideas on how to improve this:
+- Add parameters to the setup.

@@ -8,3 +8,4 @@ mv prep-folder/pre-push .git/hooks/pre-push
 rm README.md
 mv prep-folder/Readme-template.md README.md
 rm -rf prep-folder
+cp .env.example .env
