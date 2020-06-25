@@ -1,11 +1,7 @@
 # project-creator
 ![Image example](res/img/fstimg.png)
 
-A simple template for python projects that can and should be dockerized. Created this repo since I more or less do the same procedure **every time** I create a new python API or dockerized repo. It includes pre-commit hooks cleaning up the code using `flake8`, `black` and `pre-commit`, and uses a `pre-push`-hook leveraging pytest for launching tests before every push.
-
 ## Configuration instructions
-
-If you decided to use this as
 
 ## Installation instructions
 
@@ -17,9 +13,11 @@ If you decided to use this as
 
 ## Copyright and licensing information
 
+
+
 MIT License
 
-Copyright (c) 2020 Filip Cornell
+Copyright (c) [insert year] [insert name]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -41,16 +39,14 @@ SOFTWARE.
 
 ## Contact information for the distributor or programmer
 
-[Filip Cornell](mailto:c.filip.cornell@gmail.com?subject=Regarding%20your%20awesome%20repo)
-
 ## Known bugs[3]
 
 ## Troubleshooting[3]
 
 ## Credits and acknowledgments
 
-- The structure of this readme is fetched from [Wikipedia](https://en.wikipedia.org/wiki/README). Information retrieved 25/6 - 2020
 - MIT license is fetched from [this site](https://choosealicense.com/licenses/mit/). Information retrieved 25/6 - 2020
+
 ## A changelog (usually for programmers)
 
 ## A news section (usually for users)
