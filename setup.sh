@@ -4,8 +4,8 @@ virtualenv venv
 source venv/bin/activate
 python3 -m pre-commit | grep -q 'No module named' && pip3 install pre-commit || echo 'pre-commit is installed'
 pip3 install -r requirements.txt
-mv prep-folder/pre-push .git/hooks/pre-push
+mv setup-folder/pre-push .git/hooks/pre-push
 rm README.md
-mv prep-folder/Readme-template.md README.md
-rm -rf prep-folder
+mv setup-folder/Readme-template.md README.md
+rm -rf setup-folder
 cp .env.example .env

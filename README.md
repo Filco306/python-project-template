@@ -36,6 +36,11 @@ Generally, in the different folders, you put the following.
 
 ```
 python-project-template/
+├── .dockerignore           # which files for docker to ignore
+├── .env.example            # an example of which secrets needed for the repo.
+├── .flake8                 # Declaring code rules
+├── .gitignore
+├── .pre-commit-config.yaml
 ├── Dockerfile
 ├── README.md
 ├── index.py
@@ -55,7 +60,7 @@ python-project-template/
     └── test_hello.py
 ```
 
-Generated using `tree` (install it using `brew install tree`)
+Generated using `tree` (install it using `brew install tree`). To generate your own for you own project, use `tree -a -I '*.pyc|__pycache__|.git|.pytest_cache' YOUR-REPO-NAME/`
 
 ## Copyright and licensing information
 
