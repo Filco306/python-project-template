@@ -5,15 +5,51 @@ A simple template for python projects that can and should be dockerized. Created
 
 ## Configuration instructions
 
-If you decided to use this as
+This was made on `python 3.7.7` and `pip3 20.0.2`.
 
-## Installation instructions
+## Installation instructions/Requirements
+
+- `python3` and `pip3` are required.
+
+If you decided to use this as a template for your own project, do the following:
+
+### UNIX (MacOS or Linux)
+
+1. Choose `Use this as template` on [the repo website](https://github.com/Filco306/python-project-template).
+2. Run `source `
+
+### Windows
+
+Honestly, I don't know. Currently, I believe this is pretty much only UNIX-compatible. If you have insights into development on a Windows-computer, feel free to add a PR to this Readme.
 
 ## Operating instructions
 
+See installation instructions.
+
 ## A file manifest (list of files included)
 
+```
+python-project-template/
+├── Dockerfile
+├── README.md
+├── index.py
+├── prep-folder
+│   ├── Readme-template.md
+│   └── pre-push
+├── requirements.txt
+├── res
+│   └── img
+│       └── fstimg.png
+├── setup.sh
+├── src
+│   ├── __init__.py
+│   └── run.py
+└── test
+    ├── __init__.py
+    └── test_hello.py
+```
 
+Generated using `tree` (install it using `brew install tree`)
 
 ## Copyright and licensing information
 
@@ -51,6 +87,7 @@ SOFTWARE.
 
 - The structure of this readme is fetched from [Wikipedia](https://en.wikipedia.org/wiki/README). Information retrieved 25/6 - 2020
 - MIT license is fetched from [this site](https://choosealicense.com/licenses/mit/). Information retrieved 25/6 - 2020
+
 ## A changelog (usually for programmers)
 
 ## A news section (usually for users)
