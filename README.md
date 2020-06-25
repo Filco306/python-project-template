@@ -60,7 +60,9 @@ python-project-template/
     └── test_hello.py
 ```
 
-Generated using `tree` (install it using `brew install tree`). To generate your own for you own project, use `tree -a -I '*.pyc|__pycache__|.git|.pytest_cache' YOUR-REPO-NAME/`
+Generated using `tree` (install it using `brew install tree`). To generate your own for you own project, use
+
+``tree -a -I '*.pyc|__pycache__|.git|.pytest_cache' YOUR-REPO-NAME/``
 
 ## Copyright and licensing information
 
