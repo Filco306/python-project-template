@@ -3,6 +3,15 @@
 
 A simple template for python projects that can and should be dockerized. Created this repo since I more or less do the same procedure **every time** I create a new python API or dockerized repo. It includes pre-commit hooks cleaning up the code using `flake8`, `black` and `pre-commit`, and uses a `pre-push`-hook leveraging pytest for launching tests before every push.
 
+Tools used:
+- `virtualenv`
+- pre-commit hooks
+  - `pre-commit`. In the pre-commit:
+    - `hadolint`
+    - `black`
+    - `flake8`
+- `pre-push` hook: Simply a `pytest` used
+
 ## Configuration instructions
 
 This was made on `python 3.7.7` and `pip3 20.0.2`.
