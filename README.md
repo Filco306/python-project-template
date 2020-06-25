@@ -106,6 +106,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+## Some other nice tricks
+
+Say you have used this for a while and have several projects with this layout, but need to change all the
+
+- Change all `.pre-commit-config.yaml` to a newer version existing on your laptop:
+``find . -name ".pre-commit-config.yaml" -print -exec cp PATH_TO_NEW_FILE/.pre-commit-config.yaml {} \; ``
+**WARNING: This will change all .pre-commit-config.yaml files in the folder you are in to the newer version. If you have other projects not from this template, I would perhaps not use this command.**
+
 ## Contact information for the distributor or programmer
 
 [Filip Cornell](mailto:c.filip.cornell@gmail.com?subject=Regarding%20your%20awesome%20repo)
