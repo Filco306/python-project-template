@@ -44,7 +44,7 @@ python-project-template/
 ├── Dockerfile
 ├── README.md
 ├── index.py
-├── prep-folder
+├── setup-folder
 │   ├── Readme-template.md
 │   └── pre-push
 ├── requirements.txt
